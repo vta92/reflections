@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+    How are you keeping track of the commits without doing an initialization?
+
