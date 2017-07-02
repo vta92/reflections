@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 What happens when you initialize a repository? Why do you need to do it?
     How are you keeping track of the commits without doing an initialization?
 
@@ -20,3 +21,24 @@ What is the result of merging two branches together? Why do we represent it in t
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
     better control and logical changes are happening vs safe way to save data
+||||||| merged common ancestors
+=======
+What happens when you initialize a repository? Why do you need to do it?
+    How are you keeping track of the commits without doing an initialization?
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+    it selectively use to logically binding multiple connected files to each
+    commit. The logical change should only affect those files in that particular
+    commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+    the staging area will go into commit later on as 1 session. Therefore it's very important to make sure that it contains 1 logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+    keeping track of groups of changing in a program subset.
+    
+How do the diagrams help you visualize the branch structure?
+    The branch shows a flow structure of branches with commits being part of them. Think of this as a directional graph
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+    Again, we need more control about logical changes and not bogging down the entire branch
